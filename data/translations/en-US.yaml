@@ -639,22 +639,18 @@ footer:
   opacity: "0.5"
   details: # 2, 3 or 4 entries
     - icon:   "fa-phone"
-      title:  "Telefon / Whatsapp"
+      title:  "Phone / Whatsapp / Signal"
       text:   "0163-7951207"
     - icon:   "fa-map-marker"
-      title:  "Adresse"
+      title:  "Address"
       text:   "Turiner Straße 21, 13347 Berlin"
     - icon:   "fa-envelope"
       title:  "E-Mail"
-      text:   "m@michaelschmidt.berlin<br><div style='font-size: 12px; line-height: 14px !important;'>PGP:<br>BA00 4AD6 DB24 FA89 A045<br>B3FF 37DA B9A1 06C1 767D</div>"
-    - icon:   "fa-wechat"
-      title:  "Jabber"
-      text:   "lafisrap@trashserver.net<br><div style='font-size: 12px; line-height: 14px !important;'>OMEMO:<br>4a9e5c8d cb0b9141 661e5b35 476b1c50<br>c28462c6 a77b5212 8aeff39f 3081805d</div>"
+      text: 
+        m@michaelschmidt.berlin  
+        PGP:&nbsp;8AAB&nbsp;48C7&nbsp;811B&nbsp;C956&nbsp;F31A 
+        72B0&nbsp;E06E&nbsp;3524&nbsp;3CF5&nbsp;CD18
   social:
-    - icon:   "fa-twitter"
-      link:   "https://twitter.com/lafisrap"
-    - icon:   "fa-github"
-      link:   "https://github.com/lafisrap"
     - icon:   "fa-linkedin"
       link:   "https://www.linkedin.com/in/michael-schmidt-677059146/"
   impressumTitle: Impressum

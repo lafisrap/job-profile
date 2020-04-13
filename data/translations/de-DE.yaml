@@ -421,10 +421,6 @@ footer:
         PGP:&nbsp;8AAB&nbsp;48C7&nbsp;811B&nbsp;C956&nbsp;F31A 
         72B0&nbsp;E06E&nbsp;3524&nbsp;3CF5&nbsp;CD18
   social:
-    - icon:   "fa-twitter"
-      link:   "https://twitter.com/lafisrap"
-    - icon:   "fa-github"
-      link:   "https://github.com/lafisrap"
     - icon:   "fa-linkedin"
       link:   "https://www.linkedin.com/in/michael-schmidt-677059146/"
   impressumTitle: Impressum
