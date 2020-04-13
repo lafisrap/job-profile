@@ -606,7 +606,7 @@ cv:
   subtitle: Last edited 25.6.2017
   delay: 0.2
   processes:
-    - process: "1967 - 1995"
+    - process: "1967 - 1999"
       icon: "fa-clipboard"
       bullets:
         - "Born May 28th 1967 in Valdivia/Chile"
@@ -614,10 +614,10 @@ cv:
         - "**1985**-**1987** Video games programming (e.g. Space Pilot for Atari ST)"
         - "**1989**-**1991** Software engineer (Kontron Europe GmbH)"
         - "**1991**-**1995** European Business School, degree: **Diplom-Informatiker (FH)** (1,7)"
+        - "**1996**-**1999** Project manager and consultant on Internet projects (Allianz Life Insurance, Raysono)"
     - process: "1996 - 2008"
       icon: "fa-pencil"
       bullets:
-        - "**1996**-**1999** Project manager and consultant on Internet projects (Allianz Life Insurance, Raysono)"
         - "**2000**-**2002** Knowledge Management-Consulting (LHI, 2002 LHI won „Knowledge Manager of the year“"
         - "**2000** Book „Knowledge Communities“ (Addison Wessley)"
         - "**2003**-**2007** Cofunding a book and CD startup: „Archiati-Verlag“, today „Rudolf Steiner Ausgaben“"
