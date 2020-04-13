@@ -1,0 +1,672 @@
+###########################################################################################################################
+nav:
+  menu:
+    - title:  "About"
+      href:   "about"
+    - title:  "Skillset"
+      href:   "skillset"
+    # - title:  "Portfolio"
+    #   href:   "portfolio"
+    - title:  "C.V."
+      href:   "process"
+    - title:  "Contact"
+      href:   "footer"
+
+  # logoText: "My logo"
+  logoImage:   "img/home.png"
+
+  # Additional Parameters
+
+  # menuSize:         "20px"
+  # logoTextSize:     "100px"
+  logoHeight:         "32px"
+  logoHeightExpanded: "32px"
+  # colorLight:       "#ff0000"
+  # colorDark:         "#330000"
+
+###########################################################################################################################
+hero:
+  image: "img/backgrounds/bg-header.jpg"
+  ref: "about"
+  title: "Michael Schmidt"
+  subtitle: "Profile / C.V."
+
+  # titleSize:       "80px"
+  # subtitleSize:   "50px"
+  #titleColor:     "white"
+  #subtitleColor:   "white"
+  #lineColor:       "white"
+  #buttonColor:     "white"
+
+###########################################################################################################################
+about:
+  backgroundImage: img/wedding/schillerpark1.jpg
+  image: img/me.png
+  imagePos: left
+  imageSize: 250
+  text: >
+    Programming is my favourite hobby for now more than 30 years.
+    At the age of 16 I sat in the auditorium as one of the winners of the "Golden Disk", a programming competition of the BMFT, and heard Heinz Nixdorf say in his laudatory speech:
+    "I know how you feel now. I know about the enthusiasm to create new technology, but don't get stuck in that, I tell you, life is even more colourful!"
+    
+    
+    In the years that followed, I programmed a video game that was sold internationally, developed system software for highend graphics cards and online banking applications.
+    As a real computer nerd I actually hadn't really heared the words of Heinz Nixdorf until 15 years later, when an illness forced me to modify my professional life and let completely new topics enter my life.
+    For one I decided from now on to only do what I really wanted to do.
+
+
+    Following this turning point I did knowledge management consulting, with the human being in the center - knowledge always resides between two ears.
+    Later I cofounded a publishing house around the thoughts that had helped me through my illness and beyond.
+    After this I became a teacher because I wanted to introduce programming and the wonderful culture of collaboration in this field to the current generation of students.
+
+
+    In these three steps, I wrote three books: one about Knowledge Communities, one about some outrageously provocative secrets in Goethe's Faust and a novel in which teenagers recapture the Internet from global corporations and intelligence agencies.
+
+
+    And then, almost 19 years after my career change, I went back to where I started: to software development, home I would say.
+    Meanwhile there were Nodejs, React and Redux, Jest and Enzyme and Stackoverflow, git, AWS and Heroku and Bitbucket Pipelines. Crazy new things.
+    It took me a year to get in there and another year to get really running and being able to "play" again.
+    Here I am today.
+  action: Skillset
+  ref: skillset
+  action2: C. V.
+  ref2: process
+
+  # Additional Parameters
+
+  # textSize:         36
+  # textPadding:      60
+  # textColor:         "yellow"
+  # textColorPrimary: "#700D00"
+  # buttonSize:        18
+  # buttonColor:       "white"
+  # lineColor:         "#700D00"
+  # opacity:           0.6
+
+
+###########################################################################################################################
+skillset:
+  title: Skillset
+  subtitle: (years)
+  subline: " "
+  delay: 0.2
+  processes:
+    - process: "Programming"
+      icon: "fa-pencil"
+      bullets:
+        - React, Redux (4)
+        - node.js, Express (4)
+        - git (5), VSCode (3)
+        - Jira Cloud apps (3)
+        - Heroku (3), AWS (2), Bitbucket Pipelines (2)
+        - Jest, Enzyme (3)
+        - Puppeteer, Cucumber (3), Selenium (webdriver.io)
+        - JavaScript (10), TypeScript (1), jQuery (5)
+        - HTML, CSS (10)
+        - MongoDB (4), Postgres (1)
+        - Zoho CRM (1)
+        - Jira, Confluence, Bitbucket (3)
+        - Hugo Static Website Engine (2)
+        - Also resp. formerly：Python, Bash, Go, C, C++, PHP, Assembler (68000, 6502)
+    - process: "Education / Degrees"
+      icon: "fa-clipboard"
+      bullets:
+        - "Dipl. Inform. (FH) / European Business School"
+        - "FreeCodeCamp (1)"
+        - "Communication As Art (6)"
+        - Class teacher at Waldorf Schools (3)
+        - Intuitive Pedagogy, Pär Ahlbom (3)
+    - process: "Projects"
+      icon: "fa-rocket"
+      bullets:
+        - "3 Jira cloud apps (Atlassian Marketplace - React, Redux, Nodejs, Enzyme)"
+        - "Regression tests for Jira, Confluence, Bitbucket and Bamboo server apps (Nodejs, Cucumber, Selenium)"
+        - "UI end to end tests for Jira, Confluence, Bitbucket and Bamboo Server Apps (Nodejs, Cucumber, Puppeteer, Typescript)"
+        - "Connector between the Atlassian Marketplace und Zoho CRM (Nodejs, Zoho CRM API)"
+        - "Cofounded a publishing startup, ~150 publications, total paid circulation > 500.000"
+        - "Novel: 2064 (German)"
+        - "Nonfiction: The Abyss of Freedom and the First Love (German)"
+        - "Nonfiction: Knowledge Communities (German)"
+        - "Coorganizer of appr. 250 CryptoParties in Berlin (2013-2017)"
+
+###########################################################################################################################
+portfolio:
+  title: Portfolio
+  subtitle: Here you find a selection of my projects and initiatives.
+
+  filters: [
+    This is very old and has to revised before using it ...,
+    HTML CSS,
+    JavaScript,
+    Bootstrap,
+    jQuery,
+    React Redux,
+    nodejs Express,
+    Hugo,
+    Go,
+    Backbone,
+    Processing,
+    GPG PGP,
+    Android,
+    Apache Cordova,
+    AsciiDoctor,
+    Paperjs,
+    Cocos2d-X,
+    D3,
+    PHP,
+    mySQL,
+    MongoDB,
+    Casperjs,
+    Cryptography,
+    Book,
+    Philosophy,
+    Communication,
+  ]
+  all: All
+
+  elements:
+  - image: img/portfolio/fcc.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: FreeCodeCamp
+    captionCategory: "Start Coding Now ..."
+    link: https://www.freecodecamp.com
+    filters:
+      - Programmieren
+      - HTML CSS
+      - JavaScript
+      - Bootstrap
+      - jQuery
+      - React Redux
+      - D3
+      - nodejs Express
+      - MongoDB
+    content: >
+      <p>2017</p>
+
+
+      **[Profile at FreeCodeCamp](https://www.freecodecamp.com/lafisrap)**
+
+
+      **Certificates:**  
+
+      [Fontend-Certificate](https://www.freecodecamp.com/lafisrap/front-end-certification)  
+
+      [Data Viz-Certificate](https://www.freecodecamp.com/lafisrap/data-visualization-certification)
+
+  - image: img/portfolio/polls.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: "Polls out of Berlin"
+    captionCategory: FreeCodeCamp, jQuery / Express / MongoDB
+    link: https://codepen.io/lafisrap/full/LyNvow/
+    filters:
+      - HTML CSS
+      - Bootstrap
+      - JavaScript
+      - jQuery
+      - nodejs Express
+      - MongoDB
+    content: >
+      <p>2017</p>
+
+
+      **[Polls out of Berlin](https://infinite-cliffs-16818.herokuapp.com/)**  
+
+      **[GitHub](https://github.com/lafisrap/fcc_voting-app)**
+
+
+      **Languages/libraries:** HTML, CSS, Bootstrap, JavaScript, jQuery, node.js, Express, MongoDB
+
+
+      **Special:** Entwicklung mit C9.io, hosting unter Heroku
+
+
+  - image: img/portfolio/rogue.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: "Rogue Reaction: A variant of the classic game"
+    captionCategory: FreeCodeCamp, React/Redux
+    link: https://codepen.io/lafisrap/full/LyNvow/
+    filters:
+      - HTML CSS
+      - JavaScript
+      - Bootstrap
+      - React Redux
+    content: >
+      <p>2017</p>
+
+
+      **[CodePen](https://codepen.io/lafisrap/full/LyNvow/)**
+
+
+      **Languages/libraries:** HTML, CSS, JavaScript, React, Redux
+
+
+      **Special:** CSS-Kreisausschnitt für Spieler
+
+  - image: img/portfolio/search.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Creative Commons Image Search
+    captionCategory: FreeCodeCamp, jQuery / Express / MongoDB
+    link: https://codepen.io/lafisrap/full/pPYpOj
+    filters:
+      - HTML CSS
+      - Bootstrap
+      - JavaScript
+      - React Redux
+      - nodejs Express
+    content: >
+      <p>2017</p>
+
+
+      **[Creative Image Search](https://codepen.io/lafisrap/full/pPYpOj)**  
+
+      **[GitHub](https://github.com/lafisrap/fcc_ImageSearch)**
+
+
+      **Languages/libraries:** HTML, CSS, Bootstrap, JavaScript, React Redux, nodejs, Express
+
+
+  - image: img/portfolio/lifegame.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: The Game of Life
+    captionCategory: FreeCodeCamp, React/Redux
+    link: http://codepen.io/lafisrap/full/yMZyXw/
+    filters:
+      - HTML CSS
+      - JavaScript 
+      - React Redux 
+    content: >
+      <p>2017</p>
+
+
+      **[CodePen](https://codepen.io/lafisrap/full/yMZyXw/)**
+
+
+      **Languages/libraries:** HTML, CSS, JavaScript, React, Redux
+
+  - image: img/portfolio/spielplatz.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Computer-Playground
+    captionCategory: Golang, Bootstrap, Khan Live-Editor
+    link: video/spielplatz.mp4
+    filters:
+      - Go
+      - Websockets
+      - HTML CSS
+      - Bootstrap
+      - Backbone
+      - JavaScript
+      - jQuery
+      - Paperjs
+      - mySQL
+      - Processing
+      - Android
+      - Apache Cordova
+      - Casperjs
+    content: >
+      <p>2017</p>
+      
+
+      (currently not online)
+
+
+      **Languages/libraries:** Go, Beego, Websockets, LibGit2, HTML, CSS, Bootstrap, JavaScript, jQuery, Backbone, Processing.js, LiveEditor
+
+
+      **Special:** Integration of the Khan Academy LiveEditor, generating Android Apps vom Processing.js code, integration of Git functionality
+
+
+      **Credit:** Khan Academy
+
+  - image: img/portfolio/simongame.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: The Simon Game
+    captionCategory: FreeCodeCamp, HTML, CSS, JavaScript
+    link: http://codepen.io/lafisrap/full/XpypRz/
+    filters:
+      - HTML CSS
+      - JavaScript
+      - Bootstrap
+      - jQuery
+    content: >
+      <p>2017</p>
+
+
+      **[CodePen](https://codepen.io/lafisrap/full/XpypRz/)**
+
+
+      **Languages/libraries:** HTML, CSS, JavaScript, jQuery
+
+
+      **Special:** Detailed clone of the original game using CSS
+
+  - image: img/portfolio/meteorites.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Meteroite Landings Worldwide
+    captionCategory: FreeCodeCamp, HTML, CSS, JavaScript
+    link: https://codepen.io/lafisrap/full/oWpRqv/
+    filters:
+      - HTML CSS
+      - JavaScript
+      - D3
+      - React Redux
+    content: >
+      <p>2017</p>
+
+
+      **[CodePen](https://codepen.io/lafisrap/full/oWpRqv/)**
+
+
+      **Languages/libraries:** HTML, CSS, JavaScript, jQuery
+
+
+      **Special:** Rendering using D3 and Topojson
+
+  - image: img/portfolio/21worte.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: 21 Words - Tetris and Scrabble united
+    captionCategory: Cocos2d-X, JavaScript
+    link: http://c2064.in-berlin.de/c2064/21worte.mp4
+    filters:
+      - Cocos2d-X
+      - JavaScript
+      - Apache Cordova
+      - Android
+    content: >
+      <p>2016</p>
+
+
+      **[Video](http://c2064.in-berlin.de/c2064/21worte.mp4)**  
+
+      **[Android](http://c2064.in-berlin.de/c2064/21worte.apk)**  
+
+      **[Web](http://c2064.in-berlin.de/c2064/21worte)**  
+
+
+      **Languages/libraries:** JavaScript, Cocos2d-X
+
+
+      **Special:** 50.000 words of the German language
+
+
+      **Credit:** Maarja Urb, graphics / Dieter Schwartz, sound
+
+  - image: img/portfolio/malernen.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Malernen multi media teaching material
+    captionCategory: HTML, CSS, AsciiDoctor, Bootstrap 
+    filters:
+      - HTML CSS
+      - Bootstrap
+      - Apache Cordova
+      - Android
+      - Processing
+      - AsciiDoctor
+    content: >
+      <p>2017</p>
+
+
+      **[http://c2064.in-berlin.de/werkstatt/](http://c2064.in-berlin.de/werkstatt/)**
+
+
+      **Languages/libraries:** HTML, CSS, Bootstrap, Apache Cordova, Android, Processing, AsciiDoctor
+
+
+      **Special:** Combined Hugo with Startbootstrap theme
+
+
+      **Credit:** Images by Maarja Urb, Berlin
+
+
+  - image: img/portfolio/frukonstnar.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Fru Konstnär (Swedish life theater)
+    captionCategory: HTML, CSS, Bootstrap, jQuery, Hugo  
+    filters:
+      - HTML CSS
+      - Bootstrap
+      - JavaScript
+      - jQuery
+      - Hugo
+    content: >
+      <p>2017</p>
+
+
+      **[Fru Konstnär](https://maarjaurb.github.io/frukonstnar/)**
+
+
+      **Languages/libraries:** HTML, CSS, Bootstrap, JavaScript, jQuery, Hugo
+
+
+      **Special:** Combined Hugo with Startbootstrap-Theme
+
+
+      **Credit:** Images by Maarja Urb, Berlin
+
+
+  - image: img/portfolio/steinerdb.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Rudolf Steiner Internet Archive
+    captionCategory: HTML, CSS, AsciiDoctor, Bootstrap 
+    filters:
+      - HTML
+      - JavaScript
+      - PHP
+      - mySQL
+    content: >
+      <p>2009</p>
+
+
+      **[Steiner-Datenbank](http://www.steinerdatenbank.de)**
+
+
+      **Languages/libraries:** HTML, JavaScript, PHP, mySQL
+
+
+      **Special:** More than 10.000 origial documents, software is running for 9 years now without changes.
+
+
+  - image: img/portfolio/cv.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Curriculum Vitae
+    captionCategory: HTML, CSS, Bootstrap, Hugo 
+    filters:
+      - HTML CSS
+      - Bootstrap
+      - Hugo
+    content: >
+      <p>2017</p>
+
+
+      **[http://michaelschmidt.berlin](http://michaelschmidt.berlin)**
+
+
+      **Languages/libraries:** HTML, CSS, Bootstrap, Hugo
+
+
+      **Special:** Combined Hugo with Startbootstrap theme
+
+
+      **Credit:** Images by Maarja Urb, Berlin
+
+
+  - image: img/portfolio/iris.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Iris - Plats för Möte (Raum für Begegnung)
+    captionCategory: "Communication: Education and Exercise"
+    link: http://irisjohansson.com
+    filters:
+      - Philosophy
+      - Communication
+    content: >
+      <p>2008-2017</p>
+
+
+      **[http://irisjohansson.com](http://irisjohansson.com)**
+
+
+      **Courses attended:**  
+
+      Communication As Art (3 years)  
+
+      Life games (continued)  
+
+      10+ Primary weeks (working with conflicts)  
+
+
+      **Courses organized:**  
+
+      Communication As Art (3 years)  
+
+      General Thinking Mistakes of the Western Culture  
+
+      Public Lectures
+
+
+      **Courses helt:**  
+
+      The Liberation of the Internet
+
+  - image: img/portfolio/cryptoparty.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: CryptoParty Berlin
+    captionCategory: Encryption, Privacy
+    link: https://www.cryptoparty.in/berlin
+    filters:
+      - Communication
+      - Cryptography
+      - GPG PGP
+    content: >
+      <p>2013-2017</p>
+
+
+      **[CryptoParty in Berlin](https://www.cryptoparty.in/berlin/)**
+
+
+      **Technologies:** PGP/GPG, TOR, OTR, OMEMO, Veracrypt, Tails, Conversations, Ricochet, Tor Browser, Tor Messenger
+
+
+      **Special:** I coorganized ~250 CryptoParties. My own party is in Wedding.
+
+  - image: img/portfolio/abgrund.jpg
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Der Abgrund der Freiheit und die erste Liebe
+    captionCategory: Goethes Faust in life
+    link: https://www.amazon.de/Abgrund-Freiheit-die-erste-Liebe/dp/3937078487
+    filters:
+      - Philosophy
+      - Book
+    content: >
+      <p>2004</p>  
+
+
+      **[Amazon (German)](https://www.amazon.de/Abgrund-Freiheit-die-erste-Liebe/dp/3937078487)**
+
+
+  - image: img/portfolio/knowledgecommunities.jpg
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Knowledge Communities
+    captionCategory: Knowledge Exchange in the Internet
+    link: https://www.amazon.de/Knowledge-Communities-virtuellen-Wissensmärkten-Unternehmen/dp/3827316758
+    filters:
+      - Book
+      - Communication
+    content: >
+      2000  
+
+
+      **[Amazon](https://www.amazon.de/Knowledge-Communities-virtuellen-Wissensmärkten-Unternehmen/dp/3827316758)**
+
+
+
+
+  backgroundColor:        "#eef"
+  # titleSize:              50
+  # titleColor:             "#333"
+  # lineColor:              "#BA4C3D"
+  # textSize:               18
+  # textColor:              "#333"
+  # filterSize:             12
+  # filterColor:            "#1B0728"
+  # filterActiveColor:      "#BA4C3D"
+  # filterActiveTextColor:  white
+
+  # captionSize:            16
+  # captionColor:           white
+  # captionBackgroundColor: "#BA4C3D"
+  # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+  # panelColor:             white
+  # panelTitleSize:         60
+  # panelTitleColor:        blue
+  # panelTextSize:          20
+  # panelTextColor:         blue
+
+###########################################################################################################################
+cv:
+  title: CURRICULUM VITAE
+  subtitle: Last edited 25.6.2017
+  delay: 0.2
+  processes:
+    - process: "1967 - 1995"
+      icon: "fa-clipboard"
+      bullets:
+        - "Born May 28th 1967 in Valdivia/Chile"
+        - "**1984** Goldene Diskette (Golden Disk, Ministry Of Technology, BILD, Chip)"
+        - "**1985**-**1987** Video games programming (e.g. Space Pilot for Atari ST)"
+        - "**1989**-**1991** Software engineer (Kontron Europe GmbH)"
+        - "**1991**-**1995** European Business School, degree: **Diplom-Informatiker (FH)** (1,7)"
+    - process: "1996 - 2008"
+      icon: "fa-pencil"
+      bullets:
+        - "**1996**-**1999** Project manager and consultant on Internet projects (Allianz Life Insurance, Raysono)"
+        - "**2000**-**2002** Knowledge Management-Consulting (LHI, 2002 LHI won „Knowledge Manager of the year“"
+        - "**2000** Book „Knowledge Communities“ (Addison Wessley)"
+        - "**2003**-**2007** Cofunding a book and CD startup: „Archiati-Verlag“, today „Rudolf Steiner Ausgaben“"
+        - "**2004** Book „Der Abgrund der Freiheit und die erste Liebe“ (about Goethes Faust)"
+    - process: "2008 -"
+      icon: "fa-rocket"
+      bullets:
+        - "**2008**-**2010** Education „Class Teacher in Waldorf Schools“ + one year as assistent"
+        - "**2011**-**2017** Computer education at different Waldorf schools"
+        - "From **2017** Software developer at **Resolution Reichert GmbH**, Berlin (Nodejs, React, Redux, Jest, Enzyme, Cucumber, Typescript)"
+        - "**2020** Novel: 2064, Cypherpunks, Cryptowars and the liberation of the Internet"
+  subline: ""
+
+  columnHeaderSize: 40
+
+###########################################################################################################################
+footer:
+  image: "img/wedding/schraders.jpg"
+  opacity: "0.5"
+  details: # 2, 3 or 4 entries
+    - icon:   "fa-phone"
+      title:  "Telefon / Whatsapp"
+      text:   "0163-7951207"
+    - icon:   "fa-map-marker"
+      title:  "Adresse"
+      text:   "Turiner Straße 21, 13347 Berlin"
+    - icon:   "fa-envelope"
+      title:  "E-Mail"
+      text:   "m@michaelschmidt.berlin<br><div style='font-size: 12px; line-height: 14px !important;'>PGP:<br>BA00 4AD6 DB24 FA89 A045<br>B3FF 37DA B9A1 06C1 767D</div>"
+    - icon:   "fa-wechat"
+      title:  "Jabber"
+      text:   "lafisrap@trashserver.net<br><div style='font-size: 12px; line-height: 14px !important;'>OMEMO:<br>4a9e5c8d cb0b9141 661e5b35 476b1c50<br>c28462c6 a77b5212 8aeff39f 3081805d</div>"
+  social:
+    - icon:   "fa-twitter"
+      link:   "https://twitter.com/lafisrap"
+    - icon:   "fa-github"
+      link:   "https://github.com/lafisrap"
+    - icon:   "fa-linkedin"
+      link:   "https://www.linkedin.com/in/michael-schmidt-677059146/"
+  impressumTitle: Impressum
+  impressumText: >
+      <h4>------------- Anbieter -------------</h4>
+      Michael Schmidt<br>
+      Turiner Straße 21<br>
+      13347 Berlin<br>
+      <h4>------------- Kontakt: -------------</h4>
+      Telephone: +49 163 7951207<br>
+      E-Mail: m@michaelschmidt.berlin<br>
+      Website: michaelschmidt.berlin<br>
+      <h4 style="margin-bottom: 60px;"></h4>
+  copyright: 2020 Michael Schmidt
+

@@ -1,0 +1,441 @@
+###########################################################################################################################
+nav:
+  menu:
+    - title:  "Über mich"
+      href:   "about"
+    - title:  "Erfahrung"
+      href:   "skillset"
+    # - title:  "Tech Stack"
+    #   href:   "portfolio"
+    - title:  "Lebenslauf"
+      href:   "process"
+    - title:  "Kontakt"
+      href:   "footer"
+
+  # logoText: "My logo"
+  logoImage:   "img/home.png"
+
+  # Additional Parameters
+
+  # menuSize:         "20px"
+  # logoTextSize:     "100px"
+  logoHeight:         "28px"
+  logoHeightExpanded: "32px"
+  # colorLight:       "#ff0000"
+  # colorDark:         "#330000"
+
+###########################################################################################################################
+hero:
+  image: "img/backgrounds/bg-header.jpg"
+  ref: "about"
+  title: "Michael Schmidt"
+  subtitle: "Profil / Lebenslauf"
+
+  # titleSize:       "80px"
+  # subtitleSize:   "50px"
+  #titleColor:     "white"
+  #subtitleColor:   "white"
+  #lineColor:       "white"
+  #buttonColor:     "white"
+
+###########################################################################################################################
+about:
+  backgroundImage: img/wedding/schillerpark1.jpg
+  image: img/me.png
+  imagePos: left
+  imageSize: 250
+  text: >
+    Programmieren ist mein liebstes Hobby, seit über 30 Jahren...
+    Mit 16 saß ich als einer der Gewinner der "Goldenen Diskette", einem Programmier-Wettbewerb des BMFT, im Auditorium und hörte Heinz Nixdorf in seiner Laudatio sagen:
+    "Ich weiß, wie Sie sich jetzt fühlen. Ich weiß um die Begeisterung, neue Technik zu schaffen, aber bleiben Sie darin nicht hängen, ich sage Ihnen: Das Leben ist noch viel bunter!"
+    
+    
+    In den Jahren danach programmierte ein Videospiel, das international vermarket wurde, entwickelte Systemprogramme für Highend-Grafikkarten und Online-Banking-Anwendungen.
+    Wirklich gehört habe ich die Worte erst 15 Jahre später, wo ich aufgrund einer Krankheit dazu gebracht wurde, mein Berufsleben umzustellen, ganz neue Dinge in mein Leben hineinzulassen.
+    Unter anderem beschloss ich, nur noch das zu tun, was ich wirklich tun wollte.
+
+
+    Das war zunächst Wissenmanagement-Beratung, die den Menschen in den Mittelpunkt stellte: Wissen ist in den Köpfen von Menschen.
+    Danach gründete ich einen Verlag rund um die Inhalte, die mich durch meine Krankheit hindurch geholfen hatten und darüber hinaus.
+    Später wurde ich Lehrer, weil ich der heutigen Schülergeneration Programmieren und die wunderbare Kultur der Zusammenarbeit in diesem Bereich näher bringen wollte.
+
+
+    In diesen drei Schritten entstanden drei Bücher: Eines über Knowledge Communities, eines über einige unverschämt provozierende Geheimnisse in Goethes Faust und ein Roman, in dem Teenager das Internet auf der Hand von Großkonzernen und Geheimdiensten zurückerobern.
+
+
+    Und dann, fast 19 Jahre nach meinem beruflichen Umbruch, ging ich wieder dahin zurück, wo ich gestartet war: Zur Software-Entwicklung, nach Hause.
+    Inzwischen gab es Nodejs, React und Redux, Jest und Enzyme und Stackoverflow, git, AWS und Heroku.
+    Ich brauchte ein Jahr um anzukommen und ein weiteres Jahr um ganz einzutauchen und wieder "spielen" zu können.
+    Da bin ich heute.
+  action: Lebenslauf
+  ref: process
+  action2: Erfahrung
+  ref2: skillset
+
+  # Additional Parameters
+
+  # textSize:         36
+  # textPadding:      60
+  # textColor:         "yellow"
+  # textColorPrimary: "#700D00"
+  # buttonSize:        18
+  # buttonColor:       "white"
+  # lineColor:         "#700D00"
+  # opacity:           0.6
+
+
+###########################################################################################################################
+skillset:
+  title: Erfahrung
+  subtitle: "(Jahre)"
+  subline: " "
+  delay: 0.2
+  processes:
+    - process: "Technologien"
+      icon: "fa-pencil"
+      bullets:
+        - React, Redux (4)
+        - node.js, Express (4)
+        - git (5), VSCode (3)
+        - Jira Cloud apps (3)
+        - Heroku (3), AWS (2), Bitbucket Pipelines (2)
+        - Jest, Enzyme (3)
+        - Puppeteer, Cucumber (3), Selenium (webdriver.io)
+        - JavaScript (10), TypeScript (1), jQuery (5)
+        - HTML, CSS (10)
+        - MongoDB (4), Postgres (1)
+        - Zoho CRM (1)
+        - Jira, Confluence, Bitbucket (3)
+        - Hugo Static Website Engine (2)
+        - Auch bzw. früher：Python, Bash, Go, C, C++, PHP, Assembler (68000, 6502)
+    - process: "Ausbildung"
+      icon: "fa-clipboard"
+      bullets:
+        - Dipl. Inform. (FH), European Business School (4)
+        - FreeCodeCamp (1)
+        - Kommunikation als Kunst, Iris Johansson (6)
+        - Klassenlehrer an Waldorfschulen (3)
+        - Intuitive Pädagogik, Pär Ahlbom (3)
+    - process: "Projekte"
+      icon: "fa-rocket"
+      bullets:
+        - "3 Jira Cloud Apps (Atlassian Marketplace - React, Redux, Nodejs, Enzyme)"
+        - "Regression-Tests für Jira, Confluence, Bitbucket und Bamboo Server Apps (Nodejs, Cucumber, Selenium)"
+        - "UI-End2End-Tests für Jira, Confluence, Bitbucket und Bamboo Server Apps (Nodejs, Cucumber, Puppeteer, Typescript)"
+        - "Konnektor zwischen dem Atlassian Marketplace und Zoho CRM (Nodejs, Zoho CRM API)"
+        - "Mitgründer eines Verlagsstartups 'Archiati Verlag', ca. 150 Veröffentlichungen, Gesamtauflage > 500.000"
+        - "Roman: 2064"
+        - "Sachbuch: Der Abgrund der Freiheit und die erste Liebe"
+        - "Sachbuch: Knowledge Communities"
+        - "Coorganisator von ca. 250 CryptoParties in Berlin"
+
+###########################################################################################################################
+portfolio:
+  title: Tech Stack
+  subtitle: Klicken Sie auf eine Technologie ...
+
+  filters: [
+    HTML CSS JavaScript,
+    TypeScript,
+    React Redux,
+    nodejs Express,
+    Cucumber,
+    Jest,
+    Enzyme,
+    Puppeteer,
+    Selenium / webdriver.io,
+    Heroku,
+    AWS,
+    Jira Cloud Apps,
+    Zoho CRM,
+    MongoDB,
+    Postgres,
+    Python,
+    Jira,
+    Confluence,
+    Bitbucket,
+    Bamboo,
+    Hugo Static Website Engine,
+    GPG PGP,
+    Buch,
+    Programmieren,
+    Kommunikation,
+    Philosophie,
+  ]
+  all: Alle
+
+  elements:
+    # - "3 Jira Cloud Apps (Atlassian Marketplace - React, Redux, Nodejs, Enzyme)"
+    # - "Regression-Tests für Jira, Confluence, Bitbucket und Bamboo Server Apps (Nodejs, Cucumber, Selenium)"
+            # cucumber_wdio.js.png
+    # - "UI-End2End-Tests für Jira, Confluence, Bitbucket und Bamboo Server Apps (Nodejs, Cucumber, Puppeteer, Typescript)"
+    # - "Konnektor zwischen dem Atlassian Marketplace und Zoho CRM (Nodejs, Zoho CRM API)"
+    # - "Roman: 2064"
+
+    # - image: img/portfolio/fcc.png
+    # modalImage: img/backgrounds/gold.jpg
+    # captionTitle: FreeCodeCamp
+    # captionCategory: "Start Coding Now ..."
+    # link: https://www.freecodecamp.com
+    # filters:
+    #   - Programmieren
+    #   - HTML CSS JavaScript
+    #   - React Redux
+    #   - nodejs Express
+    #   - MongoDB
+    # content: >
+    #   <p>2017</p>
+
+  - image: img/portfolio/outofoffice.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Out Of Office Assistant
+    captionCategory: "Start Coding Now ..."
+    link: https://www.freecodecamp.com
+    filters:
+      - Programmieren
+      - HTML CSS JavaScript
+      - React Redux
+      - nodejs Express
+      - MongoDB
+    content: >
+      <p>2017</p>
+
+  - image: img/portfolio/fcc.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: FreeCodeCamp
+    captionCategory: "Start Coding Now ..."
+    link: https://www.freecodecamp.com
+    filters:
+      - Programmieren
+      - HTML CSS JavaScript
+      - React Redux
+      - nodejs Express
+      - MongoDB
+    content: >
+      <p>2017</p>
+
+
+      **[Profil bei FreeCodeCamp](https://www.freecodecamp.com/lafisrap)**
+
+
+      **Zertifikate:**  
+
+      [Fontend-Zertifikat](https://www.freecodecamp.com/lafisrap/front-end-certification)  
+
+      [Data Viz-Zertifikat](https://www.freecodecamp.com/lafisrap/data-visualization-certification)
+
+  - image: img/portfolio/cv.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Lebenslauf/C.V.
+    captionCategory: HTML, CSS, Bootstrap, Hugo 
+    filters:
+      - HTML CSS JavaScript
+      - Bootstrap
+      - Hugo
+    content: >
+      <p>2017</p>
+
+
+      **[http://michaelschmidt.berlin](http://michaelschmidt.berlin)**
+
+
+      **Sprachen/Libraries:** HTML, CSS, Bootstrap, Hugo
+
+
+      **Besonderheiten:** Hugo mit Startbootstrap-Theme verbunden
+
+
+      **Credit:** Bilder von Maarja Urb, Berlin
+
+  - image: img/portfolio/iris.png
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Iris - Plats för Möte (Raum für Begegnung)
+    captionCategory: "Kommunikation: Ausbildung und Übung"
+    link: http://irisjohansson.com
+    filters:
+      - Philosophie
+      - Kommunikation
+    content: >
+      <p>2008-2017</p>
+
+
+      **[http://irisjohansson.com](http://irisjohansson.com)**
+
+
+      **Kurse besucht:**  
+
+      Kommunikation als Kunst (3 Jahre)  
+
+      Lebensspiele (fortlaufend)  
+
+      10+ Primärwochen (Konfliktarbeit)  
+
+
+      **Kurse veranstaltet:**  
+
+      Kommunikation als Kunst (3 Jahre)  
+
+      Gedankenfehler der Westlichen Kultur  
+
+      Öffentliche Vorträge
+
+
+      **Kurse gehalten:**  
+
+      Die Befreiung des Internets
+
+  - image: img/portfolio/abgrund.jpg
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Der Abgrund der Freiheit und die erste Liebe
+    captionCategory: Goethes Faust im Leben
+    link: https://www.amazon.de/Abgrund-Freiheit-die-erste-Liebe/dp/3937078487
+    filters:
+      - Philosophie
+      - Buch
+    content: >
+      <p>2004</p>  
+
+
+      **[bei Amazon](https://www.amazon.de/Abgrund-Freiheit-die-erste-Liebe/dp/3937078487)**
+
+
+      **Vorwort:**
+      Stellen Sie sich vor,
+      jemand wäre so begeistert
+      von einem fernen Land,
+      dass er sich ein ganzes Leben
+      damit beschäftigt,
+      alle Bücher darüber liest
+      und immer und überall
+      davon schwärmt — aber nie hinfährt!
+
+
+      Für mich wäre es das Gleiche,
+      wenn man den Faust von Goethe —
+      und alles, was darüber
+      geschrieben wurde —
+      nur liest, Zitate daraus verwendet
+      und ihn als großes Werk lobt.
+
+
+      Das Beste von einem fremden Land
+      und vom Faust liegt in dem,
+      was man mit ihm selbst erlebt.
+      Alles, was darüber gesagt
+      oder geschrieben wird,
+      kann Anregung sein,
+      mehr nicht.
+
+
+      Michael Schmidt
+      Herbst 2004
+
+  - image: img/portfolio/knowledgecommunities.jpg
+    modalImage: img/backgrounds/gold.jpg
+    captionTitle: Knowledge Communities
+    captionCategory: Wissensaustausch im Internet
+    link: https://www.amazon.de/Knowledge-Communities-virtuellen-Wissensmärkten-Unternehmen/dp/3827316758
+    filters:
+      - Buch
+      - Kommunikation
+    content: >
+      2000  
+
+
+      **[bei Amazon](https://www.amazon.de/Knowledge-Communities-virtuellen-Wissensmärkten-Unternehmen/dp/3827316758)**
+
+
+
+
+  backgroundColor:        "#eef"
+  # titleSize:              50
+  # titleColor:             "#333"
+  # lineColor:              "#BA4C3D"
+  # textSize:               18
+  # textColor:              "#333"
+  # filterSize:             12
+  # filterColor:            "#1B0728"
+  # filterActiveColor:      "#BA4C3D"
+  # filterActiveTextColor:  white
+
+  # captionSize:            16
+  # captionColor:           white
+  # captionBackgroundColor: "#BA4C3D"
+  # panelBackgroundColor:   "182, 76, 61"  # Color has to be written like this (no brackets, no hex, no string), due to opacity
+  # panelColor:             white
+  # panelTitleSize:         60
+  # panelTitleColor:        blue
+  # panelTextSize:          20
+  # panelTextColor:         blue
+
+###########################################################################################################################
+cv:
+  title: Lebenslauf
+  subtitle: Stand 11.4.2020
+  delay: 0.2
+  processes:
+    - process: "1967 - 1995"
+      icon: "fa-clipboard"
+      bullets:
+        - "Geb. am 28.5.1967 in Valdivia/Chile"
+        - "**1984** Gewinn der Goldenen Diskette (BMBF, BILD, Chip)"
+        - "**1985**-**1987** Videospielprogrammierung (u.a. Space Pilot, Atari ST)"
+        - "**1989**-**1991** Software-Entwicklung (Kontron Europe GmbH)"
+        - "**1991**-**1995** European Business School, **Dipl.-Inform. (FH)** (1,7)"
+    - process: "1996 - 2008"
+      icon: "fa-pencil"
+      bullets:
+        - "**1996**-**1999** Projektleiter und Berater in Internet-Projekten (Allianz Lebensversicherung, Raysono)"
+        - "**1999**-**2002** Wissensmanagement-Beratung (u.a. LHI Leasing, 2002 „Wissensmanager des Jahres“)"
+        - "**2000** Buch „Knowledge Communities“ (Addison Wesley)"
+        - "**2003**-**2007** Aufbau eines Buch- und CD-Verlags „Archiati-Verlag“, heute „Rudolf Steiner Ausgaben“"
+        - "**2004** Buch „Der Abgrund der Freiheit und die erste Liebe“ (Goethes Faust)"
+    - process: "2008 -"
+      icon: "fa-rocket"
+      bullets:
+        - "**2008**-**2010** Ausbildung zum Klassenlehrer an Waldorfschulen + Assistenzjahr"
+        - "**2011**-**2017** Computerunterricht an verschiedenen Waldorfschulen"
+        - "Ab **2017**- Software-Entwickler bei Resolution Reichert GmbH, Berlin (Nodejs, React, Redux, Jest, Enzyme, Cucumber, Typescript)"
+        - "**2020** Veröffentlichung „2064, Cypherpunks, Kryptokriege und die Befreiung des Internets“"
+  subline: ""
+
+  columnHeaderSize: 40
+
+
+
+###########################################################################################################################
+footer:
+  image: "img/wedding/schraders.jpg"
+  opacity: "0.5"
+  details: # 2, 3 or 4 entries
+    - icon:   "fa-phone"
+      title:  "Telefon / Whatsapp / Signal"
+      text:   "0163-7951207"
+    - icon:   "fa-map-marker"
+      title:  "Adresse"
+      text:   "Turiner Straße 21, 13347 Berlin"
+    - icon:   "fa-envelope"
+      title:  "E-Mail"
+      text: 
+        m@michaelschmidt.berlin  
+        PGP:&nbsp;8AAB&nbsp;48C7&nbsp;811B&nbsp;C956&nbsp;F31A 
+        72B0&nbsp;E06E&nbsp;3524&nbsp;3CF5&nbsp;CD18
+  social:
+    - icon:   "fa-twitter"
+      link:   "https://twitter.com/lafisrap"
+    - icon:   "fa-github"
+      link:   "https://github.com/lafisrap"
+    - icon:   "fa-linkedin"
+      link:   "https://www.linkedin.com/in/michael-schmidt-677059146/"
+  impressumTitle: Impressum
+  impressumText: >
+      <h4>------------- Anbieter -------------</h4>
+      Michael Schmidt<br>
+      Turiner Straße 21<br>
+      13347 Berlin<br>
+      <h4>------------- Kontakt: -------------</h4>
+      Telefon: +49 163 7951207<br>
+      E-Mail: m@michaelschmidt.berlin<br>
+      Website: michaelschmidt.berlin<br>
+      <h4 style="margin-bottom: 60px;"></h4>
+  copyright: 2020 Michael Schmidt
