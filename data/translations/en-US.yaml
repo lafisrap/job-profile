@@ -604,7 +604,7 @@ portfolio:
 ###########################################################################################################################
 cv:
   title: CURRICULUM VITAE
-  subtitle: Last edited 25.6.2017
+  subtitle: Last edited 04/25/2020
   delay: 0.2
   processes:
     - process: "1967 - 1999"
