@@ -448,12 +448,12 @@ aside.cta-quote {
 aside.cta-quote div.quote {
   display: block;
   text-align: left;
-  font-size: 32px;
+  font-size: 20px;
   line-height: 44px;
   font-weight: 300;
 }
 aside.cta-quote div.quote p {
-  font-size: 32px;
+  font-size: 18px;
   line-height: 44px;
   margin-top: 27.194px;
   margin-bottom: 27.194px;
