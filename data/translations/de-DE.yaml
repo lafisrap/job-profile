@@ -26,13 +26,15 @@ nav:
 
 ###########################################################################################################################
 hero:
-  image: "img/backgrounds/bg-header.jpg"
+  backgroundImage: "img/backgrounds/bg-header.jpg"
   ref: "about"
   title: "Michael Schmidt"
-  subtitle: "Profil / Lebenslauf"
+  subtitle: "Node.js / React / Atlassian Entwickler"
+  subtitle2: "4 Jahre React, 10 Jahre JavaScript"
 
   # titleSize:       "80px"
-  # subtitleSize:   "50px"
+  subtitleSize:   "30px"
+  subsubtitleSize:   "24px"
   #titleColor:     "white"
   #subtitleColor:   "white"
   #lineColor:       "white"

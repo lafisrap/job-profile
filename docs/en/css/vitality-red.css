@@ -340,6 +340,11 @@ header .brand-name-subtext {
   line-height: 36px;
   font-weight: 500;
 }
+header .brand-name-subsubtext {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 500;
+}
 header img {
   max-width: 150px;
   max-height: 150px;
@@ -395,6 +400,10 @@ header .scroll-down .btn:hover {
   header .brand-name-subtext {
     font-size: 40px;
     line-height: 55px;
+  }
+  header .brand-name-subsubtext {
+    font-size: 30px;
+    line-height: 28px;
   }
   header img {
     max-width: 250px;
@@ -460,7 +469,10 @@ aside.cta-quote hr {
 aside.cta-quote img {
   border-radius: 100%;
   margin: 0px auto;
-  opacity: 0.5;
+  opacity: 1;
+}
+aside.cta-quote div.imageofme img {
+  opacity: 1;
 }
 aside.cta-quote .transparent-border {
   border-width: 1px;

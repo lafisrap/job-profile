@@ -14,6 +14,11 @@
         font-size: {{ .subtitleSize }} !important; 
     }
 {{ end }}
+{{ if .subsubtitleSize }}
+    header .brand-name-subsubtext {
+        font-size: {{ .subsubtitleSize }} !important; 
+    }
+{{ end }}
 {{ if .titleColor }}
     header .brand-name {
         color: {{ .titleColor }} !important; 
@@ -42,12 +47,13 @@
 
 </style>
 
-<header style="background-image: url('{{ .image }}');">
+<header style="background-image: url('{{ .backgroundImage }}');">
     <div class="intro-content">
         <img src="{{ .logo }}" class="img-responsive img-centered" alt="">
         <div class="brand-name">{{ .title | markdownify }}</div>
         <hr class="colored">
         <div class="brand-name-subtext">{{ .subtitle | markdownify }}</div>
+        <div class="brand-name-subsubtext">{{ .subtitle2 | markdownify }}</div>
         <hr class="colored">
         <div>
         {{ range $otherLocales }}
