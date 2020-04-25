@@ -108,7 +108,6 @@ skillset:
         - MongoDB (4), Postgres (1)
         - Zoho CRM (1)
         - Jira, Confluence, Bitbucket (3)
-        - Hugo Static Website Engine (2)
         - Also resp. formerly：Python, Bash, Go, C, C++, PHP, Assembler (68000, 6502)
     - process: "Education / Degrees"
       icon: "fa-clipboard"
@@ -629,7 +628,7 @@ cv:
       bullets:
         - "**2008**-**2010** Education „Class Teacher in Waldorf Schools“ + one year as assistent"
         - "**2011**-**2017** Computer education at different Waldorf schools"
-        - "From **2017** Software developer at **Resolution Reichert GmbH**, Berlin (Nodejs, React, Redux, Jest, Enzyme, Cucumber, Typescript)"
+        - "From **2017** Software developer at **Resolution Reichert GmbH**, Berlin (Nodejs, React, Redux, Jest, Enzyme, Cucumber, Puppeteer, Typescript)"
         - "**2020** Novel: 2064, Cypherpunks, Cryptowars and the liberation of the Internet"
   subline: ""
 
