@@ -96,19 +96,17 @@ skillset:
     - process: "Programming"
       icon: "fa-pencil"
       bullets:
-        - React, Redux (4)
-        - node.js, Express (4)
-        - git (5), VSCode (3)
-        - Jira Cloud apps (3)
-        - Heroku (3), AWS (2), Bitbucket Pipelines (2)
-        - Jest, Enzyme (3)
-        - Puppeteer, Cucumber (3), Selenium (webdriver.io)
-        - JavaScript (10), TypeScript (1), jQuery (5)
-        - HTML, CSS (10)
-        - MongoDB (4), Postgres (1)
-        - Zoho CRM (1)
-        - Jira, Confluence, Bitbucket (3)
-        - Also resp. formerly：Python, Bash, Go, C, C++, PHP, Assembler (68000, 6502)
+        - React, Redux (7)
+        - node.js, Express (7)
+        - git (8), VSCode (6)
+        - Jira Cloud apps (6)
+        - Heroku (6), AWS (5), Bitbucket Pipelines (5)
+        - Puppeteer (2), Cucumber (6)
+        - JavaScript (15), TypeScript (4)
+        - HTML, CSS (15)
+        - MongoDB (7), Postgres (3)
+        - Zoho CRM (4)
+        - Jira, Confluence, Bitbucket (6)
     - process: "Education / Degrees"
       icon: "fa-clipboard"
       bullets:
@@ -120,8 +118,8 @@ skillset:
     - process: "Projects"
       icon: "fa-rocket"
       bullets:
-        - "3 Jira cloud apps (Atlassian Marketplace - React, Redux, Nodejs, Enzyme)"
-        - "Regression tests for Jira, Confluence, Bitbucket and Bamboo server apps (Nodejs, Cucumber, Selenium)"
+        - "3 Jira cloud apps (Atlassian Marketplace - React, Redux, Nodejs)"
+        - "Regression tests for Jira, Confluence, Bitbucket and Bamboo server apps (Nodejs, Cucumber)"
         - "UI end to end tests for Jira, Confluence, Bitbucket and Bamboo Server Apps (Nodejs, Cucumber, Puppeteer, Typescript)"
         - "Connector between the Atlassian Marketplace und Zoho CRM (Nodejs, Zoho CRM API)"
         - "Cofounded a publishing startup, ~150 publications, total paid circulation > 500.000"

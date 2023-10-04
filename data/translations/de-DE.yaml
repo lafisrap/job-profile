@@ -30,7 +30,7 @@ hero:
   ref: "about"
   title: "Michael Schmidt"
   subtitle: "Node.js / React / Atlassian Entwickler"
-  subtitle2: "4 Jahre React, 10 Jahre JavaScript"
+  subtitle2: "7 Jahre React, 15 Jahre JavaScript"
 
   # titleSize:       "80px"
   subtitleSize:   "30px"
@@ -96,19 +96,17 @@ skillset:
     - process: "Technologien"
       icon: "fa-pencil"
       bullets:
-        - React, Redux (4)
-        - node.js, Express (4)
-        - git (5), VSCode (3)
-        - Jira Cloud apps (3)
-        - Heroku (3), AWS (2), Bitbucket Pipelines (2)
-        - Jest, Enzyme (3)
-        - Puppeteer, Cucumber (3), Selenium (webdriver.io)
-        - JavaScript (10), TypeScript (1), jQuery (5)
-        - HTML, CSS (10)
-        - MongoDB (4), Postgres (1)
-        - Zoho CRM (1)
-        - Jira, Confluence, Bitbucket (3)
-        - Auch bzw. früher：Python, Bash, Go, C, C++, PHP, Assembler (68000, 6502)
+        - React, Redux (7)
+        - node.js, Express (7)
+        - git (8), VSCode (6)
+        - Jira Cloud apps (6)
+        - Heroku (6), AWS (5), Bitbucket Pipelines (5)
+        - Puppeteer (2), Cucumber (3)
+        - JavaScript (15), TypeScript (4)
+        - HTML, CSS (15)
+        - MongoDB (7), Postgres (3)
+        - Zoho CRM (4)
+        - Jira, Confluence, Bitbucket (6)
     - process: "Ausbildung"
       icon: "fa-clipboard"
       bullets:
@@ -120,8 +118,8 @@ skillset:
     - process: "Projekte"
       icon: "fa-rocket"
       bullets:
-        - "3 Jira Cloud Apps (Atlassian Marketplace - React, Redux, Nodejs, Enzyme)"
-        - "Regression-Tests für Jira, Confluence, Bitbucket und Bamboo Server Apps (Nodejs, Cucumber, Selenium)"
+        - "3 Jira Cloud Apps (Atlassian Marketplace - React, Redux, Nodejs)"
+        - "Regression-Tests für Jira, Confluence, Bitbucket und Bamboo Server Apps (Nodejs, Cucumber)"
         - "UI-End2End-Tests für Jira, Confluence, Bitbucket und Bamboo Server Apps (Nodejs, Cucumber, Puppeteer, Typescript)"
         - "Konnektor zwischen dem Atlassian Marketplace und Zoho CRM (Nodejs, Zoho CRM API)"
         - "Mitgründer eines Verlagsstartups 'Archiati Verlag', ca. 150 Veröffentlichungen, Gesamtauflage > 500.000"
@@ -379,7 +377,7 @@ cv:
       icon: "fa-clipboard"
       bullets:
         - "Geb. am 28.5.1967 in Valdivia/Chile"
-        - "**1984** Gewinn der Goldenen Diskette (BMBF, BILD, Chip)"
+        - "**1984** Goldenen Diskette (BMBF, BILD, Chip)"
         - "**1985**-**1987** Videospielprogrammierung (u.a. Space Pilot, Atari ST)"
         - "**1989**-**1991** Software-Entwicklung (Kontron Europe GmbH)"
         - "**1991**-**1995** European Business School, **Dipl.-Inform. (FH)** (1,7)"
